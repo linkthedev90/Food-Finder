@@ -1,8 +1,8 @@
 # Food Finder
- Recipe Finder app powered by Java Springboot
+
 This is a Web Application I wrote that uses a food API ( provided by https://spoonacular.com/food-api ) to return items that match the Users search terms. The User can then click on a item to be taken to it's recipe page.
 
-You can access the app here - 
+You can access the app here - https://linkthedev90.github.io/Food-Finder/
 
 ### Features
 ## Recipe Search By Title
