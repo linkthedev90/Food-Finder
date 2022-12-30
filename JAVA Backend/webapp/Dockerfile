@@ -1,4 +1,4 @@
-FROM openjdk:19
+FROM openjdk:20
 COPY --from=build target/webapp-0.0.1-SNAPSHOT.jar webapp-0.0.1-SNAPSHOT.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "/webapp-0.0.1-SNAPSHOT.jar"]
