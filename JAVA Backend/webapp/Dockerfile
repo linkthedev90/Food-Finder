@@ -2,7 +2,7 @@
 #COPY . .
 #RUN mvn clean package -DskipTests
 
-
+#Settings work with Render.com
 #FROM openjdk:20
 FROM amazoncorretto:19
 ADD /webapp-0.0.1-SNAPSHOT.jar webapp-0.0.1-SNAPSHOT.jar
