@@ -1,4 +1,4 @@
-FROM maven:3.8.2-jdk-19 AS build
+FROM maven:3.8.6-amazoncorretto-19 AS build
 COPY . .
 RUN mvn clean package
 
