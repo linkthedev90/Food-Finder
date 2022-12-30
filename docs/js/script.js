@@ -73,7 +73,7 @@ function sendFormDataTitle() {
   var input = { data: formattedString }
 
   console.log(JSON.stringify(input))
-  fetch("https://javarecipeapp.herokuapp.com/recipe", {
+  fetch("https://javafoodfinder.onrender.com/recipe", {
     method: "POST",
     headers: { mode: "cors", "Content-Type": "application/json" },
     body: JSON.stringify(input),
@@ -126,7 +126,7 @@ function sendFormDataIngredient() {
   //var input = {"data":document.getElementById('form').value};
 
   console.log(JSON.stringify(tagDict))
-  fetch("https://javarecipeapp.herokuapp.com/ingredient", {
+  fetch("https://javafoodfinder.onrender.com/ingredient", {
     method: "POST",
     headers: { mode: "cors", "Content-Type": "application/json" },
     body: JSON.stringify(tagDict),
@@ -171,7 +171,7 @@ function setDataforResults() {
 }
 
 function getCredit() {
-  fetch("https://javarecipeapp.herokuapp.com/credit", {
+  fetch("https://javafoodfinder.onrender.com/credit", {
     method: "GET",
     headers: { mode: "cors", "Content-Type": "application/json" },
   }).then((res) =>
